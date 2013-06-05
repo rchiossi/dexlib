@@ -1,0 +1,3 @@
+[submodule "libparse"]
+	path = libparse
+	url = https://github.com/rchiossi/libparse
