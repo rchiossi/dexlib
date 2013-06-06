@@ -197,7 +197,7 @@ CodeItem = Entry.create('CodeItem',[
         ['outs_size',      2, BinInt],
         ['tries_size',     2, BinInt],
         ['debug_info_off', 4, BinHex],
-        ['insns_size',     2, BinInt],
+        ['insns_size',     4, BinInt],
         ['insns',    ci_insns_size, BinData],
         ['padding',  ci_padding_size, BinHex],
         ['tries',    'tries_size', EntryList, TryItem],
